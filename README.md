@@ -1,5 +1,5 @@
 # DREN:Deep Rotation Equivirant Network
-<center>![rotate_equivariant](img/rotate_equivariant.png)</center>
+![rotate_equivariant](img/rotate_equivariant.png)
 
 Features produced by a DREN is equivariant to rotation while that produced by a typical CNN is not.
 ## Installation
@@ -96,7 +96,7 @@ Download [cifar10_gcn-leveldb](https://drive.google.com/file/d/0B3j4tSL88j-eU0c4
 
 ## Visualization
 
-<center>![visualization](img/visualization.png)</center>
+![visualization](img/visualization.png)
 
 
 **The representations in the last convolutional layer learnt by NIN, H-Net, P4-ALL-CNN-C and DREN.** The two columns correspond to the representations of an image of automobile(left) and an image of truck(right). Inside one of the 8 pictures, the leftmost column contains the rotated input images while the remaining 10 columns contain the 10 feature maps in the last convolutional layers, which corresponds to the 10 classes of CIFAR-10. We slightly modify the architecture of H-Net to ensure that a global average pooling layer is used right after the last convolutional layer. The other three networks also apply this structure. Thus, the predictions of the networks are exactly the class whose related representation attains maximum density. We mark the maximal one(the prediction) with a red square. It turns out that when the input is rotated, NIN yields entirely different representations, leading to wrong predictions. For H-Net and P4-ALL-CNN-C, the representations are partly equivariant to rotation. However, H-Net still predicts incorrectly, when the image of automobile is rotated. In fact, only the representations of DREN are exactly equivariant to rotation, and thus the predictions of DREN are consistent, when the input is rotated. Moreover, we find our leanrt representations for automobile and for truck are very similar while that of other models are not. This shows that the representations learnt by DREN are similar for semantically similar objects, which indicates the reasonability of adding rotation equivariant constraint.
