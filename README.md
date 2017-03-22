@@ -89,7 +89,7 @@ Download [cifar10_gcn-leveldb](https://drive.google.com/file/d/0B3j4tSL88j-eU0c4
 |r-NIN(conv1-4)  |9.8%     |**576k**|
 |r-NIN(conv1-4)x4|**9.0%** |958k    |
 ## How many isotonic layers should be applied?
-<center>![visualization](img/table.png)</center>
+![visualization](img/table.png)
 
 
 **Classification error of models with different numbers of our proposed layers**: The left one is the results on Rotated MNIST and the right one is that on CIFAR-10. It turns out that, for datasets which has rotation symmetry in nature(Rotated MNIST), applying more isotonic layers yields better classification accuracy. We argue that higher level rotation equivariant representations learnt by stacking more isotonic layers improves the classification accuracy on such dataset. However, for CIFAR-10, the circumstance changes. Applying $4$ or $5$ isotonic layers achieves the best performance. We argue that higher level rotation equivariant representations are not helpful on such dataset without rotation symmetry, and applying more isotonic layers reduces the number of parameters(model complexity) fourfold, therefore leading to severe underfitting.
