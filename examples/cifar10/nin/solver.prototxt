@@ -1,0 +1,14 @@
+net: "examples/cifar10/nin/net.prototxt"
+test_iter: 100
+test_interval: 500
+base_lr: 0.025
+momentum: 0.9
+#weight_decay: 0.0001
+lr_policy: "step"
+gamma: 0.05
+stepsize: 100000
+display: 100
+max_iter: 130000
+snapshot: 10000
+snapshot_prefix: "examples/cifar10/nin/model/"
+solver_mode: GPU
