@@ -1,4 +1,9 @@
 # DREN:Deep Rotation Equivirant Network
+<div align="center">
+  <img src="img/rotate_equivariant.png"><br><br>
+</div>
+
+
 ![rotate_equivariant](img/rotate_equivariant.png)
 
 Features produced by a DREN is equivariant to rotation while that produced by a typical CNN is not.
