@@ -3,7 +3,9 @@
   <img src="img/rotate_equivariant.png"><br><br>
 </div>
 
-Features produced by a DREN is equivariant to rotation while that produced by a typical CNN is not. Paper Link:[Deep Rotation Equivirant Network](https://arxiv.org/abs/1705.08623)
+Features produced by a DREN is equivariant to rotation while that produced by a typical CNN is not. 
+
+Paper Link:[Deep Rotation Equivirant Network](https://arxiv.org/abs/1705.08623)
 ## Installation
 First, download caffe.
 
