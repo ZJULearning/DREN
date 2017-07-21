@@ -6,6 +6,8 @@
 Features produced by a DREN is equivariant to rotation while that produced by a typical CNN is not. 
 
 Paper Link:[Deep Rotation Equivirant Network](https://arxiv.org/abs/1705.08623)
+
+[TensorFlow version code](https://github.com/microljy/DREN_Tensorflow)
 ## Installation
 First, download caffe.
 
