@@ -3,8 +3,6 @@
   <img src="img/rotate_equivariant.png"><br><br>
 </div>
 
-Features produced by a DREN is equivariant to rotation while that produced by a typical CNN is not. 
-
 Paper Link:[Deep Rotation Equivirant Network](https://arxiv.org/abs/1705.08623)
 
 [TensorFlow version code](https://github.com/microljy/DREN_Tensorflow)
@@ -115,3 +113,15 @@ Download [cifar10_gcn-leveldb](https://drive.google.com/file/d/0B3j4tSL88j-eU0c4
 
 
 
+## Discussion
+DREN can be used to boost the performance of classification of images that have rotation symmetry, such as aerial image, microscope images, CT images and so on. We have tested the DREN in lung nodule detection and found it helpful.
+
+## Citation
+Please cite DREN in your publications if it helps your research:
+
+	@article{Li2017Deep,
+	  Title={Deep Rotation Equivariant Network},
+	  Journal={arXiv preprint arXiv:1705.08623},
+	  Author={Li, Junying and Yang, Zichen and Liu, Haifeng and Cai, Deng},
+	  Year={2017},
+	}
