@@ -119,11 +119,12 @@ DREN can be used to boost the performance of classification of images that have 
 ## Citation
 Please cite DREN in your publications if it helps your research:
 
-	@article{Li2017Deep,
-	  title={Deep Rotation Equivariant Network},
-	  author={Li, Junying and Yang, Zichen and Liu, Haifeng and Deng, Cai},
+	@article{li2018deep,
+	  title={Deep rotation equivariant network},
+	  author={Li, Junying and Yang, Zichen and Liu, Haifeng and Cai, Deng},
 	  journal={Neurocomputing},
 	  volume={290},
-	  pages={26-33},
-	  year={2017},
+	  pages={26--33},
+	  year={2018},
+	  publisher={Elsevier}
 	}
